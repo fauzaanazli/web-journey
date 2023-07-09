@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100em;
+}
+
+.h-700{
+    height: 700px;
+}
+
+.bg-biru{
+    background-color: darkturquoise;
+}
+
+.bg-merah{
+    background-color: firebrick;
+}
+
+.position{
+    background: green;
+    padding: 15px;
+    position:sticky;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 50px;
+    top: 50px;
+    background-color: teal;
+}
+
+input:focus{
+    color: rgb(187, 0, 194);
+    text-transform: uppercase;
+
+}
+h1:hover{
+    color: blue;
+}
+
+.red > #blue  h1{
+color: blue;
+}
+.red > #blue  h1:hover{
+    color: orangered;
+}
+.red > #blue  h4:hover{
+    color: red;
+}

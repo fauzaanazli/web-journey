@@ -1,0 +1,240 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image:url('../assets/backgound.jpg');
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+.welcome{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+ul.nav{
+    list-style: none;
+    background-color: dimgrey;
+    text-align: right;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+.nav > li{
+    margin: auto;
+    display: inline-block;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+}
+
+.nav > li > a{
+    padding: 1em 2em;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    transition: 0.5s;
+}
+
+.nav-icon{
+    float: left;
+    width: 2.5rem;
+    height: 1.8rem;    
+    display:block;
+    margin: 7px auto 5px auto ;
+    max-width: 2.2rem;
+    max-height: 2.2rem;
+}
+
+.mobile{
+    display: none;
+}
+#about {
+    padding: 2em 0;
+}
+.content-1, .content-2, .content-3{
+    text-align: center;
+}
+
+.split{
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.content-2, .content-3{
+    display: inline-block;
+    margin: 5em 10em 0 10em;
+}
+.img-icon{
+    max-width: 12em;
+}
+.paragraf{
+    font-size: 1.3em;
+    font-family: 'open-sans', sans-serif;
+    width: 80%;
+    max-width: 24em;
+    text-align: justify;
+    margin: 1em auto;
+}
+
+.sub{
+    text-align: center;
+}
+
+.isi-porto{
+    text-align: center;
+    margin: 3em auto;
+}
+.isi-porto >img{
+    max-width: 10cm;
+    max-height: 7cm;
+    display: inline-block;
+    margin: 1em 1em 0 1em;
+}
+
+hr{
+    max-width: 600px;
+}
+
+.contact{
+    margin: 0 0 0 3rem;
+    padding: 1.5rem 1rem 1rem 1rem;
+}
+.comment{
+    display: inline-block;
+    width: 50%;
+    padding: 1.5rem 1rem 1rem 1rem;
+    vertical-align: middle;
+}
+
+.comment > div >input{
+    width: 70%;
+    height: 1.5rem;
+    resize: none;
+}
+
+.comment > div > textarea{
+    width: 70%;
+    height: 12rem;
+    resize: none;
+}
+
+.comment > div > label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: block;
+    margin: 1rem 0 0.5rem 0;
+
+} 
+
+.btn-kirim{
+    width: 71%;
+    height: 1.8rem;
+    margin: 0.4rem 0 0 0;
+    color: white;
+    background-color:lawngreen;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.btn-kirim > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+.btn-kirim > a:active{
+    color: white;
+}
+
+.info{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width:45%;
+}
+.info > div{
+    padding: 0 0 0 35%;
+    font-weight:bolder;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    
+}
+.info > div > span{
+    margin: 0 1rem 0 1rem;
+}
+.icon-sm{
+    max-width: 40px;
+    vertical-align: middle;
+}
+.info > div > span{
+    display: inline-block;
+    
+    
+}
+
+@media only screen and (max-width : 600px ), only screen and (max-width: 1000px) {
+    html, body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .background{
+        height: 900px;
+    }
+    .welcome{
+        font-size: 1.5rem;
+    }
+
+    ul.nav{
+        text-align: center;
+    }
+    .nav-icon{
+        display: none;
+    }
+
+    .split , .content-2, .content-3{
+        margin: 0;
+    }
+    .comment, .info{
+        width: 100%;
+    }
+    .info >div{
+        text-align: left;
+        padding: 0 0 0 1rem;
+    }
+
+    .btn-kirim{
+        width: 25%;
+        height: 1.8rem;
+        margin: 0.4rem 0 0 0;
+        color: white;
+        background-color:lawngreen;
+        border: 0;
+        border-radius: 10px;
+        font-size: 1.1em;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    .btn-kirim > a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        
+    }
+    .btn-kirim > a:active{
+        color: white;
+    }
+}
