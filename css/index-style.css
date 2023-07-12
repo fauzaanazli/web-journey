@@ -160,6 +160,10 @@ hr{
     color: white;
 }
 
+.kirim > a:hover button:hover{
+    cursor:pointer;
+}
+
 .info{
     display: inline-block;
     vertical-align: middle;
